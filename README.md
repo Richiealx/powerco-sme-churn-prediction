@@ -4,6 +4,7 @@
 ![Status](https://img.shields.io/badge/Project%20Type-Real%20World-success)
 ![Model](https://img.shields.io/badge/Model-Random%20Forest-green)
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow)
+![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)
 
 ---
 ## 📌 Project Overview
@@ -170,6 +171,15 @@ One-slide executive summary for senior stakeholders:
 
 ---
 
+⚠️ Data Notice  
+The original datasets used in this project were provided exclusively for the **BCG X Data Science Job Simulation (via Forage)** 
+and are subject to confidentiality and licensing restrictions. They are **not included** in this repository.
+All code and feature engineering logic remain entirely my own work. 
+Where necessary, synthetic/mock data has been used solely to demonstrate
+implementation structure and reproducibility.
+
+
+
 ## 3. How to run this project
 
 ### 3.1 Setup
@@ -188,4 +198,3 @@ pip install -r requirements.txt
 
 # Launch notebooks
 jupyter notebook
-
