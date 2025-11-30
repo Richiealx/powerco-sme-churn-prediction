@@ -175,11 +175,17 @@ One-slide executive summary for senior stakeholders:
 ### 3.1 Setup
 
 ```bash
-git clone https://github.com/<your-username>/powerco-sme-churn-prediction.git
+# Clone repository
+git clone https://github.com/Richialx/powerco-sme-churn-prediction.git
 cd powerco-sme-churn-prediction
 
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# Create environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate (Windows)
 
+# Install dependencies
 pip install -r requirements.txt
+
+# Launch notebooks
+jupyter notebook
 
