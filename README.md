@@ -186,7 +186,7 @@ implementation structure and reproducibility.
 
 ```bash
 # Clone repository
-git clone https://github.com/Richialx/powerco-sme-churn-prediction.git
+git clone https://github.com/Richiealx/powerco-sme-churn-prediction.git
 cd powerco-sme-churn-prediction
 
 # Create environment
