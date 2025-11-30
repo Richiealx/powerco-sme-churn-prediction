@@ -1,9 +1,20 @@
-# PowerCo SME Churn Prediction
+# 🔥 PowerCo Churn Prediction
 
-End-to-end data science project modelling customer churn for **PowerCo**, an energy provider serving small and medium enterprises (SMEs).  
-Built as part of the **BCG X Data Science** job simulation and expanded into a production-style GitHub project.
+![PowerCo](https://img.shields.io/badge/Industry-Energy%20%26%20Utilities-blue)
+![Status](https://img.shields.io/badge/Project%20Type-Real%20World-success)
+![Model](https://img.shields.io/badge/Model-Random%20Forest-green)
+![Python](https://img.shields.io/badge/Python-3.10+-yellow)
 
-The goal is to **predict which SME customers are at risk of churning** and to translate model outputs into **actionable retention strategies**.
+---
+## 📌 Project Overview
+End-to-end churn modelling project for **PowerCo**, an energy provider to small and medium enterprises (SMEs).  
+Developed as part of the **BCG X Data Science Job Simulation**, then extended into a production-style GitHub project.
+
+A complete end-to-end pipeline was built from business framing, data exploration, feature engineering, and model development to strategic recommendations for executives.
+
+
+The objective is to **predict which SME customers are likely to churn** and convert those insights into **actionable retention strategies** backed by data.
+
 
 ---
 
@@ -13,7 +24,7 @@ PowerCo has observed rising churn in its SME portfolio.
 Management believes that *price sensitivity* is the main driver, but there is limited analytical evidence.
 
 Key business questions:
-
+Using **14.6K SME customer records**, the objective was to determine:
 1. Is price really the dominant driver of churn, or are other factors more important?
 2. Can we build a model that predicts which SME customers are likely to leave?
 3. How should the business use these predictions to prioritise retention actions?
